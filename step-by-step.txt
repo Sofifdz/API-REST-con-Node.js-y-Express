@@ -1,0 +1,51 @@
+1. Abrir VS Code
+
+0. Abrir carpeta(ctrl + o)
+
+    a. Puede ser carpeta ya existente
+
+    b. Crear carpeta nueva
+
+1. Abrir terminar (ctrl + j)
+
+    1.1 npm init -ya
+
+    1.2 npm install express nodemon
+
+2. Abrir package.json
+
+    2.1 Crear comando dev -> nodemon index.js
+
+      "scripts": {
+            "test": "echo \"Error: no test specified\" && exit 1",
+
+            "dev": "nodemon index.js"
+        },
+    
+3. Crear undex.js
+
+    3.1 Abrir index.js
+
+    3.2 Levantar el servidor
+
+4. Poner a correr el server
+
+    4.1 Abrir la terminarl
+
+    4.2 Ejecurtar npm run dev
+
+    4.3 Abrir Navegador
+
+        4.3.1 Abrir 'localhost:3000' -> '/'
+    
+    4.4 Definir ruta para '/'
+
+        4.4.1 console.log(req)
+
+    4.5 Definir ruta para '/saludo'
+
+        4.5.1 Enviar json
+
+5. Metodo POST
+
+    5.1 Definir ruta POST/users
