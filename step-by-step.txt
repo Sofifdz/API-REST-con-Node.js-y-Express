@@ -47,5 +47,36 @@
         4.5.1 Enviar json
 
 5. Metodo POST
+    
+    5.1 Definir ruta POST/user
 
-    5.1 Definir ruta POST/users
+    5.2 Instalar thunder client
+
+    5.3 Marcar petición POST/user
+
+6. Usar BODY de la REQUEST
+
+    6.1 Habilitar parseo con app.use(express.json)
+
+    6.2 Recibir cuerpo de petición en RECURSO /user para
+    construir un nuevo usuario
+
+7. Metodos PUT y PATCH
+
+    7.1 Definir recursospara actualizar usuarios
+
+    7.2 Utilizar query params
+
+8. Metodo DELETE
+
+    8.1 Utilizar query params para reconocer usuario a eliminar
+
+    8.2 Eliminar usuario
+
+Notas:
+    Existen herramientas que nos permiten generar peticiones con otros metodos ya que el navegador solo sabe hacer GET
+    -POSTMAN
+    -INSOMNIA
+    -YAAK
+    -APIDOG
+    -THUNDER CLIENT VSC-El que se va a utilizar
