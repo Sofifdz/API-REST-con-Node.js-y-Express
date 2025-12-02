@@ -3,12 +3,17 @@
 Este proyecto es una API desarrollada con Node.js y Express, la API responde en formato JSON y sirve como práctica básica de creación de rutas, manejo de métodos HTTP y uso de middleware.
 
 Materiales necesarios para ejecutar el programa:
+
   -Node.js
+  
   -npm 
+  
   -Visual studio Code
+  
   -THUNDER CLIENT para este caso
   
 Dependencias utilizadas:
+
   -express
 
 Ejecución del proyecto:
